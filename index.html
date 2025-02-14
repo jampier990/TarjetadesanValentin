@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín, Marcos</title>
+    <style>
+        @keyframes latido {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffe6e6;
+            margin: 0;
+        }
+
+        .contenedor {
+            display: flex;
+            align-items: center;
+            background: rgba(255, 77, 77, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            color: white;
+        }
+
+        .imagen img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+
+        .mensaje {
+            animation: latido 1.5s infinite;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="imagen">
+            <img src="https://lh3.googleusercontent.com/d/14gfb8h57q28Ve9wMoXfxZzIeO0f93DFh=w1000" alt="Imagen de San Valentín">
+        </div>
+        <div class="mensaje">
+            <h1>💖 Para Marcos, con cariño 💖</h1>
+            <p>José te quiere recordar lo especial que eres en su vida. 🌹</p>
+            <p>Gracias por compartir risas, momentos y cariño. 💕</p>
+            <p>Hoy y siempre, ¡Feliz San Valentín! 💌</p>
+        </div>
+    </div>
+
+</body>
+</html>
